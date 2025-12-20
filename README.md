@@ -3,7 +3,7 @@ This repo shows the verification of a 4-bit combinational adder using Universal 
 
 ## Code
 
-### RTL/Design Code
+<details><summary>RTL/Design Code</summary>
 
 ```systemverilog
 ///////DUT + Interface 
@@ -25,7 +25,11 @@ interface add_if();
   
 endinterface
 ```
-### Testbench Code
+</details>
+
+__________________________________________________________
+
+<details><summary>Testbench Code</summary>
 
 ```systemverilog
 
@@ -304,14 +308,22 @@ module tb;
   
 endmodule
 ```
-### Simulation
+</details>
+
+__________________________________________________________
+
+<details><summary>Simulation</summary><br>
 
 ![alt text](<Sim/UVM Based Combinational Adder P1.png>)
 ![alt text](<Sim/UVM Based Combinational Adder P2.png>)
 ![alt text](<Sim/UVM Based Combinational Adder P3.png>)
 
-### Waveform
+</details>
+
+__________________________________________________________
+
+<details><summary>Waveform</summary><br>
 
 ![alt text](<Sim/UVM Based Combinational Adder Waveform.png>)
 
-
+</details>
